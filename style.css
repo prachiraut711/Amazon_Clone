@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;   /*horizontal madhe zal yane navbr madhal bcz by default left se right tak main axis. */
+    align-items: center; /*navbar madhl sagle div vagere flex items cross axis ni center la getle*/
+    justify-content: space-evenly;
+}
+/* navbar madhla box1 */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(amazon-logo-removebg-preview.png);
+}
+.border {
+    border: 1.5px solid transparent;  /*ithe html madhe hi hover kelyvarwhite border annyasathi class chya pudhe ajun ek class "border" name dil tya class la ani border chi css lihliye*/
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* navbar madhla box2 */
+.add-first {
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+.add-icon {
+    display: flex;   /*location symbol ani india eka line madhe annasathi*/
+    align-items: center;
+}
+/*navbar madla box3*/
+.nav-search {
+    display: flex;    /*eka linit anl ha icon*/
+    justify-content: space-evenly;
+    width: 950px;
+    height: 40px;
+
+}
+.nav-search:hover {
+    border: 4px solid orange;
+    border-radius: 8px;
+}
+.select-search {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%; /*urlel space occupy karun takli 100% ni */
+    font-size: 1rem;
+    border: none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111
+}
+/*box4*/   /*ithe border sthi class name chya pudhe border class dila */
+span {
+    font-size: 0.7rem;
+}
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;  
+}
+/*box5*/
+.nav-cart i {   /*selector madhe ithe i mahnje icon ithe nav-cart madhe jitke pn icon astil tyachi font size 35px keli*/
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*pannel navbar khalcha*/
+.panel {
+    height: 40px;
+    background-color: #222f3b;
+    display: flex;   /*horizontal madhe al mag paragraph madhle text*/
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options p{
+    display: inline; /* panel-option madhle para sagle horizontal annysathi*/
+    margin-left: 15px;
+}
+.panel-options {
+    width: 1200px;
+    font-size: 0.85rem;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+ /* ata madhla section  */
+.hero-section {
+    height: 350px;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+ 
+}
+.hero-msg a {
+    color: #007185;
+}
+/*shop section*/
+.shop-section {
+    display: flex;  /*yane sagle box eka row madhe ale*/
+    flex-wrap: wrap;  /*tya 8 img wrap zalya 4 varti 4khali*/
+    justify-content: space-evenly;
+    background-color: pink;
+}
+.box {
+    height: 390px; 
+    width: 23%; 
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img {
+    height: 300px;
+    background-size: cover; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p {
+    color: #007185;
+
+}
+/* footer */
+footer {
+    margin-top: 15px;;
+}
+.foot-panel {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-panel2 a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd
+}
+ul {
+    margin-top: 45px;
+}
+.foot-panel3{
+    background-color:#222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.logo1 {
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+    background-image: url(logo.png); 
+}
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright {
+    padding-top: 5px;
+}
